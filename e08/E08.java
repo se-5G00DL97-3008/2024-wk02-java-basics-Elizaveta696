@@ -3,15 +3,15 @@ import java.util.Scanner;
 class E08 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a number (0 to quit):");
+        System.out.println("Give a number (0 to quit):");
         int input = scanner.nextInt();
         while (input != 0) {
             if (input % 2 == 1) {
-                System.out.println("Odd number");
+                System.out.println("Number is add");
             } else {
-                System.out.println("Even number");
+                System.out.println("Number is even");
             }
-            System.out.println("Enter a number (0 to quit):");
+            System.out.println("Give a number (0 to quit):");
             input = scanner.nextInt();
         }
     }
