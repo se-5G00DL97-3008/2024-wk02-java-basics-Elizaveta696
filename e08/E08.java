@@ -7,7 +7,7 @@ class E08 {
         int input = scanner.nextInt();
         while (input != 0) {
             if (input % 2 == 1) {
-                System.out.println("Number is add");
+                System.out.println("Number is odd");
             } else {
                 System.out.println("Number is even");
             }
